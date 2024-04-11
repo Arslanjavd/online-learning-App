@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:oline_learning_app/modules/visibility_practise/vis_pre.dart';
+import 'package:oline_learning_app/modules/onboarding/OnBoarding.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,9 +11,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
+    return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: VisibilityPractice(),
+      home: OOnBoarding(),
     );
   }
 }

@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:oline_learning_app/modules/course/course.dart';
+import 'package:oline_learning_app/modules/coursedetail1/course_detail1.dart';
 import 'package:oline_learning_app/utils/image_url.dart';
 import 'package:oline_learning_app/utils/test_data.dart';
 import 'package:oline_learning_app/utils/text_style.dart';
@@ -180,7 +181,14 @@ class _HomePageState extends State<HomePage> {
                                     bottom: 10,
                                     right: 10,
                                     child: InkWell(
-                                        onTap: () {},
+                                        onTap: () {
+                                          Navigator.pushReplacement(
+                                              context,
+                                              MaterialPageRoute(
+                                                builder: (context) =>
+                                                    CourseDetail1(),
+                                              ));
+                                        },
                                         child: Container(
                                           height: height * 0.05,
                                           width: width * 0.25,

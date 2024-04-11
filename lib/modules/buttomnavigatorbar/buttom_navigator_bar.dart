@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:oline_learning_app/modules/course/course.dart';
 import 'package:oline_learning_app/modules/homepage/home_page.dart';
+import 'package:oline_learning_app/modules/message/message.dart';
 import 'package:oline_learning_app/modules/screach_filter/screach_fliter.dart';
+import 'package:oline_learning_app/modules/settting/setting.dart';
 
 class ButttonNavigator_bar extends StatefulWidget {
   const ButttonNavigator_bar({super.key});
@@ -20,7 +22,13 @@ class _ButttonNavigator_barState extends State<ButttonNavigator_bar> {
       });
     }
 
-    final screen = [const HomePage(), const Course(), ScreachFliter()];
+    final screen = [
+      const HomePage(),
+      const Course(),
+      const ScreachFliter(),
+      const Meassage(),
+      const Setting()
+    ];
 
     return Scaffold(
       body: screen[bar],

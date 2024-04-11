@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:oline_learning_app/modules/payment/payment.dart';
+import 'package:oline_learning_app/modules/verfiaction/verfiaction.dart';
 import 'package:oline_learning_app/utils/image_url.dart';
 import 'package:oline_learning_app/utils/test_data.dart';
 import 'package:oline_learning_app/utils/text_style.dart';
 import 'package:oline_learning_app/widges/otp_text_foam.dart';
 
+// ignore: must_be_immutable
 class Payment1 extends StatelessWidget {
   Payment1({super.key});
   TextEditingController otp1 = TextEditingController();
@@ -20,7 +22,7 @@ class Payment1 extends StatelessWidget {
       Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => const Payment(),
+            builder: (context) => const Verfiaction(),
           ));
     }
 

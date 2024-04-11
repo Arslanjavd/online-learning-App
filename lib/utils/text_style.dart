@@ -70,4 +70,8 @@ class Style {
     color: Colors.black.withOpacity(0.7),
     fontSize: 13,
   );
+  static TextStyle topbar = const TextStyle(
+    color: Colors.black,
+    fontSize: 20,
+  );
 }

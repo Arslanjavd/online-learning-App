@@ -30,11 +30,10 @@ class _FiltterState extends State<Filtter> {
   Widget build(BuildContext context) {
     double height = MediaQuery.of(context).size.height;
     double width = MediaQuery.of(context).size.width;
-    return SizedBox(
-      height: height * 0.8,
-      width: width,
-      child: SingleChildScrollView(
-        physics: const BouncingScrollPhysics(),
+    return SingleChildScrollView(
+      child: SizedBox(
+        height: height,
+        width: width,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [

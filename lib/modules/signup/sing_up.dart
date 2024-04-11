@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:oline_learning_app/modules/login2.dart/log_in_2.dart';
 import 'package:oline_learning_app/utils/test_data.dart';
 import 'package:oline_learning_app/utils/text_style.dart';
 import 'package:oline_learning_app/widges/create_button.dart';
@@ -138,6 +139,11 @@ class _SignUpState extends State<SignUp> {
                             child: InkWell(
                                 onTap: () {
                                   if (!formkey.currentState!.validate()) return;
+                                  Navigator.pushReplacement(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => const LogIn2(),
+                                      ));
                                 },
                                 child: const CreateButton(
                                     buttontext: "Create account")),

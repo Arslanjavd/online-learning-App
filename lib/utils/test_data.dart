@@ -51,4 +51,27 @@ class TextData {
   static String payment = "Payment Method";
   static String paymentpassword = "Payment Password";
   static String Please = "Please enter the payment password";
+  static String successfull = "Successful purchase !";
+  static String account = "Account";
+  static String fav = "Favourite";
+  static String edit = "Edit Account";
+  static String sett = "Settings and Privacy";
+  static String hel = "Help";
+  static String not = "Notifications";
+  static String mes = "message";
+  static String online = "Online";
+  static String time = "04:32pm";
+  static String name = "Bert Pullman";
+  static String paragraf =
+      "Congratulations on completing the first lesson,keep up the good work!";
+  static String notifheading = "successful purchase!";
+  static String name2 = "daniel Lawson";
+  static String paragraf2 =
+      "Your course has been updated, you can check the new course in your study course.";
+  static String name3 = "Nguyen Shane";
+  static String notifheading2 = "Congratulations on completing the  ...";
+  static String notifheading3 = "Your course has been updated, you  ...";
+  static String notifheading4 = "Congratulations, you have ...";
+  static String online12 = "Just now";
+  static String time2 = "12:00pm";
 }

@@ -14,4 +14,6 @@ class ImageUrl {
   static String traling = "assets/images/images.jpeg";
   static String traling1 = "assets/images/padlock.png";
   static String card = "assets/images/credit-card.png";
+  static String verfiaction = "assets/images/Icon (1).png";
+  static String setting = "assets/images/Avatar (1).png";
 }
