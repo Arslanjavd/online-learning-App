@@ -46,7 +46,7 @@ class _CourseState extends State<Course> {
               Padding(
                 padding: const EdgeInsets.all(15.0),
                 child: TextFormField(
-                  textAlign: TextAlign.center,
+                  textAlignVertical: TextAlignVertical.center,
                   controller: search,
                   decoration: InputDecoration(
                     contentPadding: const EdgeInsets.only(top: 10, bottom: 5),

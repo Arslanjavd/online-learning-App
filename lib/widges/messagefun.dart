@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:oline_learning_app/models/messagem.dart';
 
+// ignore: must_be_immutable
 class MessageFun extends StatelessWidget {
   final Messagem messagem;
   MessageFun({super.key, required this.messagem});
